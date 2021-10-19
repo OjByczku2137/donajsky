@@ -140,10 +140,6 @@ body{
 #planet3{
   transform: translateY(55%) translateX(-15%);
 }
-#satelite{
-  overflow: hidden;
-	animation: flyingsatelite 4s ease-in-out infinite;
-}
 
 #astronaut1 {
 	overflow: hidden;
@@ -361,5 +357,3 @@ body{
 #impostor4{
   transform: translateY(530%) translateX(1700%);
 }
-
-/*ok s */ 
