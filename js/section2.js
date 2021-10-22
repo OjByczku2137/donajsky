@@ -5,25 +5,27 @@ let astronaut2 = document.getElementById('astronaut2');
 const number = 0.09;
 window.addEventListener('scroll', function(){
     let scrollpos = window.scrollY;
+    if (scrollpos < 3400){
     if (scrollpos > 1800){
-        rocket.style.top = 133 + scrollpos * number + '%';
+        rocket.style.top = 137 + scrollpos * number + '%';
     }
-    if (scrollpos > 3100){
+    if (scrollpos > 3300){
         duzydym.style.opacity = 1;
     }
     else{
         duzydym.style.opacity = 0;
     }
-    if (scrollpos > 3200){
+    if (scrollpos >= 3350){
         flag.style.opacity = 1;
     }
     else{
         flag.style.opacity = 0;
     }
-    if (scrollpos > 3200){
+    if (scrollpos >= 3350){
         astronaut2.style.opacity = 1;
     }
     else{
-        astronaut2.style.opacity = 0;
-    }
+       astronaut2.style.opacity = 0;
+    }}
+    
 });
