@@ -354,7 +354,7 @@ body{
 #section2::before{
   content: "";
   position: absolute;
-  transform: translateY(965%);
+  transform: translateY(915%);
   z-index: 3;
   left: 0;
   width: 100%;
