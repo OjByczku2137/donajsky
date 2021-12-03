@@ -422,6 +422,7 @@ body{
 }
 
 #animation-smoke{
+  transform: translateX(-3200px) translateY(-12%);
   position: absolute;
   z-index: 0;
 }
