@@ -27,9 +27,8 @@ window.addEventListener('scroll', function(){
     else{
        astronaut2.style.opacity = 0;
     }}
-    
-});
 
+});
 
 window.addEventListener('scroll', function(){
     var scroll = window.scrollY;
@@ -39,6 +38,4 @@ window.addEventListener('scroll', function(){
         dym.classList.add("dym");
         rakieta.classList.add("animacja");
     }
-
-        
 });
