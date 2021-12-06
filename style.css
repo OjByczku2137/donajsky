@@ -432,6 +432,49 @@ body{
 #ContentText2{
   z-index: 2;
   transform: translateY(-250%);
-  COLOR: black;
+  color: black;
   position: relative;
+}
+
+.container {
+  position: relative;
+  margin-left: 300px;
+  margin-right: 300px;
+  transform: translateY(-100px);
+}
+.mySlides {
+  text-align: center;
+  display: none;
+}
+.mySlides:before{
+    content: '';
+    position: absolute;
+    width: 63.5%;
+    height: 99%;
+    -moz-box-shadow: inset 0px 0px 6px 6px rgba(255,255,255,1);
+    -webkit-box-shadow: inset 0px 0px 6px 6px rgba(255,255,255,1);
+    box-shadow: inset 0px 0px 6px 6px rgba(255,255,255,1);
+}
+
+
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  width: auto;
+  padding: 16px;
+  color: black;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 5px;
+  user-select: none;
+}
+
+.next {
+  right: 0;
+}
+
+.prev:hover, .next:hover {
+  background-color: #1a0049;
+  color: white;
 }
