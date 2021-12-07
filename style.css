@@ -432,7 +432,8 @@ body{
 #ContentText2{
   z-index: 2;
   transform: translateY(-250%);
-  color: black;
+  color: #a515aa;
+  text-shadow: 6px 6px 5px #1a0049;
   position: relative;
 }
 
