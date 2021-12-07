@@ -34,9 +34,12 @@ window.addEventListener('scroll', function(){
     var scroll = window.scrollY;
     var rakieta = document.getElementById('animation');
     var dym = document.getElementById('animation-smoke');
+    var container = document.getElementById('container');
     if(scroll > 2050){
         dym.classList.add("dym");
         rakieta.classList.add("animacja");
+        container.classList.add("qwe");
+
     }
 });
 
