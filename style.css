@@ -436,11 +436,12 @@ body{
   position: relative;
 }
 
-.container {
+#container{
   position: relative;
   margin-left: 300px;
   margin-right: 300px;
   transform: translateY(-100px);
+  opacity: 0;
 }
 .mySlides {
   text-align: center;
@@ -479,16 +480,20 @@ body{
   color: white;
 }
 
-.container.qwe{
-  animation: 5s weq ease forwards;
-}
-
 @keyframes weq {
   0%{
       opacity: 0;
+  }
+  50%{
+    opacity: 0;
   }
   100%{
       opacity: 1;
   }
   
+}
+
+
+#container.qwe{
+  animation: weq 8s forwards;
 }
