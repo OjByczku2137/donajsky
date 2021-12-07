@@ -1,3 +1,4 @@
+/*rakieta astronauci duzydym flaga*/
 var rocket = document.getElementById('rocket');
 var duzydym = document.getElementById('bigsmoke');
 var flag = document.getElementById('flag');
@@ -29,6 +30,7 @@ window.addEventListener('scroll', function(){
     }}
 
 });
+/*rakieta dym galeria*/
 
 window.addEventListener('scroll', function(){
     var scroll = window.scrollY;
@@ -39,10 +41,10 @@ window.addEventListener('scroll', function(){
         dym.classList.add("dym");
         rakieta.classList.add("animacja");
         container.classList.add("qwe");
-
     }
 });
 
+/*Galeria */
 
 var slideIndex = 1;
 showSlides(slideIndex);
