@@ -499,3 +499,8 @@ body{
 #container.qwe{
   animation: weq 8s forwards;
 }
+.sec3 a{
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+}
