@@ -6,23 +6,23 @@ var astronaut2 = document.getElementById('astronaut2');
 var number = 0.09;
 window.addEventListener('scroll', function(){
     var scrollpos = window.scrollY;
-    if (scrollpos < 3350){
-    if (scrollpos > 1800){
+    if (scrollpos < 4400){
+    if (scrollpos > 3000){
         rocket.style.top = 137 + scrollpos * number + '%';
     }
-    if (scrollpos > 3330){
+    if (scrollpos > 4200){
         duzydym.style.opacity = 1;
     }
     else{
         duzydym.style.opacity = 0;
     }
-    if (scrollpos >= 3330){
+    if (scrollpos >= 4200){
         flag.style.opacity = 1;
     }
     else{
         flag.style.opacity = 0;
     }
-    if (scrollpos >= 3330){
+    if (scrollpos >= 4200){
         astronaut2.style.opacity = 1;
     }
     else{

@@ -355,7 +355,7 @@ body{
 #section2::before{
   content: "";
   position: absolute;
-  transform: translateY(935%);
+  transform: translateY(966%);
   z-index: 3;
   left: 0;
   width: 100%;
@@ -374,7 +374,7 @@ body{
 }
 .sec3{
   position: relative;
-  transform: translateY(85%);
+  transform: translateY(33%);
   font-size: 1.1em;
   padding: 100px;
   background: #003a7c;
@@ -504,5 +504,8 @@ body{
   font-weight: 600;
 }
 .dzierzgon{
+  text-align: center;
+}
+#autorzy{
   text-align: center;
 }
