@@ -509,3 +509,8 @@ body{
 #autorzy{
   text-align: center;
 }
+#opis{
+  position: relative;
+  margin-top: -200px;
+  float: left;
+}
